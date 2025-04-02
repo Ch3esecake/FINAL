@@ -1,5 +1,7 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
+import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from 'vite'
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,7 +10,10 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
     ],
-
+    plugins: [
+        tailwindcss(),
+        
+      ],
     theme: {
         extend: {
             fontFamily: {
@@ -18,4 +23,5 @@ export default {
     },
 
     plugins: [forms],
+    
 };

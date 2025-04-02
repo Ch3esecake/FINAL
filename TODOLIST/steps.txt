@@ -1,0 +1,6 @@
+composer install <--- to install laravel's dependencies
+php artisan key:generate <--------- key for .env
+php artisan migrate <----- to add db tables in database.sqlite
+
+php artisan serve
+tailwind sa loob ni TODOLIST
