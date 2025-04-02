@@ -12,8 +12,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-         <link href="https://literate-space-spoon-69gxxvgqx6943569w.github.dev/build/assets/app-C24RWVG9.css" rel="stylesheet"/>
-         <script type="module" src="https://literate-space-spoon-69gxxvgqx6943569w.github.dev/build/assets/app-Bo-u61x1.js"></script>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
